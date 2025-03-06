@@ -1,0 +1,3 @@
+name: cifar10_semi
+n_classes: 10
+n_labels: 2500

@@ -1,0 +1,18 @@
+name: vae_semi_simple
+batch_size: 128
+lr: 0.0001
+num_epochs: 200
+hidden_size: 1000
+latent_size: 2
+criterion: bce
+bn: False
+
+kld_weight: 0.01
+kld_schedule: linear
+kld_warmup: False
+
+p_weight: 5
+
+noise_sigma: 0
+
+cls_weight: 1

@@ -1,0 +1,27 @@
+name: diff_vae_autoclustering
+batch_size: 128
+lr: 0.0001
+num_epochs: 200
+hidden_size: 1000
+latent_size: 2
+criterion: mse
+bn: False
+
+kld_weight: 0.005
+kld_schedule: constant
+kld_warmup: False
+
+diff_weight: 10
+
+timesteps: 50
+
+endtoend: True
+
+n_clusters: 20
+eta: 1.5
+diff_ct: 20
+learnable_heads: True
+
+noise_sigma: 0
+
+g_norm: 0.1

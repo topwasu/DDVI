@@ -1,0 +1,31 @@
+name: diff_vae_warmup_semi
+batch_size: 1024
+lr: 0.0001
+num_epochs: 50
+hidden_size: 1000
+latent_size: 2
+criterion: bce
+bn: False
+
+kld_weight: 0.1
+kld_schedule: constant
+kld_warmup: False
+
+diff_weight: 1
+diff_weight2: 1
+prior_z_weight: 1
+
+timesteps: 100
+
+endtoend: True
+
+noise_sigma: 0
+
+context_size: 2
+
+diff_ct: 30
+
+dropout: 0.4
+g2_weight: 1
+
+cls_weight: 1

@@ -1,0 +1,22 @@
+name: diff_vae_semi
+batch_size: 1024
+lr: 0.0001
+num_epochs: 50
+hidden_size: 1000
+latent_size: 2
+criterion: bce
+bn: False
+
+kld_weight: 0.1
+kld_schedule: constant
+kld_warmup: False
+
+diff_weight: 1
+
+timesteps: 100
+
+endtoend: False
+
+noise_sigma: 0
+
+cls_weight: 1

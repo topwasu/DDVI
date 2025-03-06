@@ -1,0 +1,15 @@
+defaults:
+  - _self_
+  - dataset: mnist
+  - model: aae_vanilla
+  - prior: gauss
+prior:
+  mult: 1
+model:
+  p_weight: null
+save_folder: ???
+load_model: False
+g_path: null
+guided_g_path: null
+seed: 0
+get_elbo: False

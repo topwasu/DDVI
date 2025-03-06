@@ -1,0 +1,3 @@
+name: umap
+batch_size: 128
+latent_size: 2

@@ -1,0 +1,8 @@
+name: aae_semi
+batch_size: 128
+lr: 0.0002
+num_epochs: 200
+hidden_size: 1000
+latent_size: 2
+bn: False
+noise_sigma: 0

@@ -1,0 +1,12 @@
+name: aae_dim
+batch_size: 128
+lr: 0.0002
+num_epochs: 200
+hidden_size: 1000
+latent_size: 2
+bn: True
+
+n_clusters: 20
+eta: 1.5
+
+noise_sigma: 0

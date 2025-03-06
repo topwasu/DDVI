@@ -1,0 +1,20 @@
+name: vae_diff
+batch_size: 128
+lr: 0.0001
+num_epochs: 200
+hidden_size: 1000
+latent_size: 2
+criterion: bce
+bn: False
+
+kld_weight: 0.01
+kld_schedule: constant
+kld_warmup: False
+
+diff_weight: 1
+
+timesteps: 20
+
+endtoend: True
+
+noise_sigma: 0
