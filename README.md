@@ -1,11 +1,8 @@
-# [Denoising Diffusion Variational Inference (DDVI): Diffusion Models as Expressive Variational Posteriors](https://arxiv.org/abs/2401.02739)
+# [Denoising Diffusion Variational Inference (DDVI): Diffusion Models as Expressive Variational Posteriors](https://arxiv.org/abs/2401.02739) (AAAI 2025)
 
 By [Wasu Top Piriyakulkij*](https://www.cs.cornell.edu/~wp237/), [Yingheng Wang*](https://isjakewong.github.io/), [Volodymyr Kuleshov](https://www.cs.cornell.edu/~kuleshov/) (* denotes equal contribution)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2401.02739-red.svg)](https://arxiv.org/abs/2401.02739)
-
-Accepted to [AAAI 2025](https://aaai.org/conference/aaai/aaai-25/)
-
 
 <table>
   <tr>
